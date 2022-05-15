@@ -5,10 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "assets/AssetManifest.json": "2c08f9ee8b833c7cb7ea9efc9a66dc4b",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/ubuntuhero.jpg": "da800c07714e0d5fa753be575cbb66ff",
-"assets/NOTICES": "9cb0ea5fd4e48ce6d40a0692ab6866ad",
-"assets/packages/yaru_icons/assets/ui_icons.ttf": "f4773a498c26bd6d8ec852397b5dbd76",
+"assets/NOTICES": "8a606c5936de5f633221474fb73c633e",
+"assets/packages/yaru_icons/assets/ui_icons.ttf": "32b6f081b1ce70b0724bf4199e09e9b4",
 "assets/packages/yaru_widgets/assets/ubuntu_logo.png": "1cd87df893e3c75b7df2e850e0dfc1d7",
 "assets/packages/yaru/src/text/fonts/Ubuntu-RI.ttf": "6da3b4e2adcbcf2889e59c81d2326a43",
 "assets/packages/yaru/src/text/fonts/Ubuntu-LI.ttf": "d8d09723b71ebb22bc31881877609622",
@@ -20,9 +20,10 @@ const RESOURCES = {
 "assets/packages/yaru/src/text/fonts/Ubuntu-M.ttf": "2aaaafd5fe853746266cad7eafcc871e",
 "assets/FontManifest.json": "00bb1f0f987c84aaa194ca33ace8e7fd",
 "version.json": "952d57b51dc20ce130b3f53dbf9453c8",
-"index.html": "3d5daea63dcbc876a1f0ed449da625d7",
-"/": "3d5daea63dcbc876a1f0ed449da625d7",
-"main.dart.js": "aff30a93bbb4a5ded9a01446f703b530",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"index.html": "a632f8944384a33092e4bedabe188c87",
+"/": "a632f8944384a33092e4bedabe188c87",
+"main.dart.js": "70f13c30ae1f406ea04a5993928d8f5f",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
@@ -37,8 +38,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
