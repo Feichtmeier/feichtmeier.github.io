@@ -38,11 +38,14 @@ class _LogoState extends State<Logo> with SingleTickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    var image = Image.asset(
-      'assets/logo.png',
-      width: widget.size,
-      fit: BoxFit.fitHeight,
-      filterQuality: FilterQuality.medium,
+    var image = ClipRRect(
+      borderRadius: BorderRadius.circular(widget.size / 2),
+      child: Image.asset(
+        'assets/logo.jpeg',
+        width: widget.size,
+        fit: BoxFit.fitHeight,
+        filterQuality: FilterQuality.medium,
+      ),
     );
     return Stack(
       alignment: Alignment.center,

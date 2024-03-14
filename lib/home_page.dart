@@ -1,3 +1,4 @@
+import 'package:feichtmeier/logo.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:yaru_widgets/widgets.dart';
@@ -34,6 +35,10 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50),
               child: ScreenMessage(
+                icon: const Logo(
+                  size: 100,
+                  duration: Duration.zero,
+                ),
                 title: const Text(kWelcomeTitle),
                 subTitle: Shimmer.fromColors(
                   baseColor: kBaseColor,
