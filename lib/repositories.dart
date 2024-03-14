@@ -5,6 +5,12 @@ import 'constants.dart';
 
 final repositories = <(String, String, String, IconData)>{
   (
+    kUfcOrgaName,
+    'musicpod',
+    'Local Music, Radio and Podcast Player',
+    YaruIcons.music_note,
+  ),
+  (
     kUbuntuOrganName,
     'yaru.dart',
     'The iconic Flutter widget and theme suite for Ubuntu Desktop applications',
@@ -18,26 +24,14 @@ final repositories = <(String, String, String, IconData)>{
   ),
   (
     kUfcOrgaName,
-    'samples',
-    'Template Projects to get you started!',
-    YaruIcons.rule_and_pen,
-  ),
-  (
-    kUfcOrgaName,
-    'musicpod',
-    'Local Music, Radio and Podcast Player',
-    YaruIcons.music_note,
-  ),
-  (
-    kUfcOrgaName,
     'settings',
     'Settings for the Ubuntu Desktop',
     YaruIcons.settings,
   ),
   (
-    kUfcOrgaName,
-    'software',
-    'Unofficial app center of the Ubuntu Desktop',
+    kUbuntuOrganName,
+    'app-center',
+    'archive/main',
     YaruIcons.application_bag_filled,
   ),
   (
@@ -69,17 +63,5 @@ final repositories = <(String, String, String, IconData)>{
     'pulse',
     'Weather and News app for Ubuntu Desktop',
     YaruIcons.weather,
-  ),
-  (
-    kUfcOrgaName,
-    'calculator',
-    'Calculator app for Ubuntu Desktop',
-    YaruIcons.calculator,
-  ),
-  (
-    kUfcOrgaName,
-    'rss.dart',
-    'Rss with dart',
-    YaruIcons.rss,
   ),
 };

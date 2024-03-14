@@ -33,7 +33,7 @@ const kGitHubOrgaLink = '$kGitHubPrefix/$kUfcOrgaName';
 
 const kMail = 'mailto:frederik.feichtmeier@gmail.com';
 
-const kDiscordLink = 'https://discord.gg/vJgPV9Yn3n';
+const kDiscordLink = 'https://discord.com/users/feichtmeier';
 
 const kWelcomeTitle = 'Software Engineer & Designer';
 
