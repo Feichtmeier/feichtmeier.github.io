@@ -25,7 +25,7 @@ const kFeichtmeier = 'feichtmeier';
 
 const kUbuntuOrganName = 'ubuntu';
 
-const kShortTitle = 'UFC';
+const kShortTitle = 'FF';
 
 const kGitHubPrefix = 'https://github.com';
 
