@@ -2,7 +2,7 @@ name: Publish to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 env:
   FLUTTER_VERSION: 3.16.5
@@ -19,4 +19,3 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           webRenderer: canvaskit
-          baseHref: /website/
