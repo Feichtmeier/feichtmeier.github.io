@@ -1,6 +1,9 @@
+import 'package:feichtmeier/build_context_x.dart';
 import 'package:feichtmeier/logo.dart';
 import 'package:flutter/material.dart';
+import 'package:path/path.dart' as p;
 import 'package:shimmer/shimmer.dart';
+import 'package:universal_html/html.dart' as html;
 import 'package:yaru_widgets/widgets.dart';
 
 import 'constants.dart';
@@ -8,8 +11,6 @@ import 'plated_icon.dart';
 import 'repositories.dart';
 import 'screen_message.dart';
 import 'sub_page.dart';
-import 'package:universal_html/html.dart' as html;
-import 'package:path/path.dart' as p;
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -41,8 +42,8 @@ class HomePage extends StatelessWidget {
                 ),
                 title: const Text(kWelcomeTitle),
                 subTitle: Shimmer.fromColors(
-                  baseColor: kBaseColor,
-                  highlightColor: kHighlightColor,
+                  baseColor: context.baseColor,
+                  highlightColor: context.highlightColor,
                   child: InkWell(
                     borderRadius: BorderRadius.circular(5),
                     onTap: () => Navigator.of(context).pushNamed('/projects'),
@@ -63,8 +64,8 @@ class HomePage extends StatelessWidget {
                   ),
                   title: Text(e.$2),
                   subTitle: Shimmer.fromColors(
-                    baseColor: kBaseColor,
-                    highlightColor: kHighlightColor,
+                    baseColor: context.baseColor,
+                    highlightColor: context.highlightColor,
                     child: InkWell(
                       borderRadius: BorderRadius.circular(5),
                       onTap: onTap,

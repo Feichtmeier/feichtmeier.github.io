@@ -13,7 +13,7 @@ class FootNote extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final style = context.theme.textTheme.labelSmall
-        ?.copyWith(color: Colors.white.withOpacity(0.7));
+        ?.copyWith(color: context.theme.colorScheme.onSurface);
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
