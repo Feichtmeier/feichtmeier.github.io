@@ -4,8 +4,8 @@ import 'package:ubuntu_service/ubuntu_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'constants.dart';
 import 'contributor_service.dart';
-import 'package:yaru_icons/yaru_icons.dart';
-import 'package:yaru_widgets/constants.dart';
+import 'package:yaru/icons.dart';
+import 'package:yaru/constants.dart';
 
 class ContributorGrid extends StatefulWidget {
   const ContributorGrid({super.key});

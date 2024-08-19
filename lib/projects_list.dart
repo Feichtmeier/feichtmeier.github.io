@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import 'package:universal_html/html.dart' as html;
-import 'package:yaru_widgets/constants.dart';
-import 'package:yaru_widgets/widgets.dart';
+import 'package:yaru/constants.dart';
+import 'package:yaru/widgets.dart';
 
 import 'build_context_x.dart';
 import 'constants.dart';

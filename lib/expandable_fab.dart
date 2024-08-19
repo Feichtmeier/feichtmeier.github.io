@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:yaru_icons/yaru_icons.dart';
+import 'package:yaru/icons.dart';
 
 class ExpandableFab extends StatefulWidget {
   const ExpandableFab({

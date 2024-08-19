@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tabler_icons/flutter_tabler_icons.dart';
 import 'package:path/path.dart' as p;
 import 'package:universal_html/html.dart' as html;
-import 'package:yaru_icons/yaru_icons.dart';
+import 'package:yaru/icons.dart';
 
 import 'constants.dart';
 import 'expandable_fab.dart';

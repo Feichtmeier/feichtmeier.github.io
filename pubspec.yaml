@@ -14,22 +14,20 @@ dependencies:
   flutter_markdown: ^0.6.20
   flutter_tabler_icons: ^1.21.0
   github: ^9.23.0
-  http: ^1.2.0
+  http: ^1.2.2
   markdown_syntax_highlighter: ^1.1.0
-  path: ^1.8.3
+  path: ^1.9.0
   shimmer: ^3.0.0
-  ubuntu_service: ^0.3.1
+  ubuntu_service: ^0.3.2
   universal_html: ^2.2.4
-  url_launcher: ^6.2.5
-  yaru: ^1.2.2
-  yaru_icons: ^2.4.0
-  yaru_widgets: ^3.6.0
+  url_launcher: ^6.3.0
+  yaru: ^5.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   assets:

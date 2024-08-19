@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import 'package:shimmer/shimmer.dart';
 import 'package:universal_html/html.dart' as html;
-import 'package:yaru_widgets/widgets.dart';
+import 'package:yaru/widgets.dart';
 
 import 'constants.dart';
 import 'plated_icon.dart';
@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                   label: Text(e.$1),
                 );
               },
-            ).toList(),
+            ),
           ],
         ),
       ),
