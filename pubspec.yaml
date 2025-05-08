@@ -12,7 +12,6 @@ dependencies:
     sdk: flutter
 
   flutter_highlighter: ^0.1.1
-  flutter_markdown: ^0.6.20
   flutter_tabler_icons: ^1.21.0
   github: ^9.23.0
   http: ^1.4.0

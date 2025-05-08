@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 env:
-  FLUTTER_VERSION: '3.29.x'
+  FLUTTER_VERSION: '3.29.2'
 
 jobs:
   build-and-publish:
@@ -17,5 +17,3 @@ jobs:
         with:
           flutter-version: ${{env.FLUTTER_VERSION}}
       - uses: bluefireteam/flutter-gh-pages@v7
-        with:
-          webRenderer: canvaskit
