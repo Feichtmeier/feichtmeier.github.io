@@ -1,5 +1,5 @@
-import 'package:feichtmeier/build_context_x.dart';
-import 'package:feichtmeier/logo.dart';
+import 'build_context_x.dart';
+import 'logo.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' as p;
 import 'package:shimmer/shimmer.dart';

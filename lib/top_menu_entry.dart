@@ -6,31 +6,41 @@ import 'build_context_x.dart';
 class TopMenuEntry extends StatelessWidget {
   const TopMenuEntry({
     super.key,
-    this.onPressed,
     this.padding = 20.0,
     required this.text,
+    required this.route,
   });
 
-  final void Function()? onPressed;
   final String text;
   final double padding;
+  final String route;
 
   @override
   Widget build(BuildContext context) {
+    final isSelected = ModalRoute.of(context)?.settings.name == route;
+    final nav = Navigator.of(context);
     return TextButton(
-      onPressed: onPressed,
+      onPressed: () => isSelected ? nav.maybePop() : nav.pushNamed(route),
       child: Text(
         text,
-        style: context.theme.textTheme.bodyLarge,
+        style: context.theme.textTheme.bodyLarge?.copyWith(
+          color: isSelected
+              ? context.theme.colorScheme.primary
+              : context.theme.colorScheme.onSurface,
+        ),
       ),
     );
   }
 }
 
 List<Widget> createTopMenu(BuildContext context) => [
-      TopMenuEntry(
+      const TopMenuEntry(
+        text: 'About',
+        route: '/about',
+      ),
+      const TopMenuEntry(
         text: 'Projects',
-        onPressed: () => Navigator.of(context).pushNamed('/projects'),
+        route: '/projects',
       ),
       const SizedBox(
         width: kYaruPagePadding,

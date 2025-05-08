@@ -1,10 +1,11 @@
 name: feichtmeier
 description: "Software Engineer and Designer"
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: ">=3.2.3 <4.0.0"
+  flutter: ">=3.29.2"
 
 dependencies:
   flutter:
@@ -14,23 +15,21 @@ dependencies:
   flutter_markdown: ^0.6.20
   flutter_tabler_icons: ^1.21.0
   github: ^9.23.0
-  http: ^1.2.2
+  http: ^1.4.0
   markdown_syntax_highlighter: ^1.1.0
+  markdown_widget: ^2.3.2+8
   path: ^1.9.0
   shimmer: ^3.0.0
-  ubuntu_service: ^0.3.2
   universal_html: ^2.2.4
   url_launcher: ^6.3.0
-  yaru: ^5.0.0
+  watch_it: ^1.4.2
+  yaru: ^7.0.0
 
 dev_dependencies:
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^4.0.0
-
 flutter:
   assets:
-  - assets/
-  
-
+    - assets/

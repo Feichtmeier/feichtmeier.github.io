@@ -31,7 +31,7 @@ class ContributorService {
     String owner,
     String name,
   ) async {
-    return await (_gitHub.repositories)
+    return _gitHub.repositories
         .listContributors(RepositorySlug(owner, name))
         .where((c) => c.type == 'User')
         .toList();

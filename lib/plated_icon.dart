@@ -1,4 +1,4 @@
-import 'package:feichtmeier/build_context_x.dart';
+import 'build_context_x.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 

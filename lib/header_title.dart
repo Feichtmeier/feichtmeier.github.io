@@ -11,11 +11,16 @@ class HeaderTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final width = context.mq.size.width;
+    final isSelected = ModalRoute.of(context)?.settings.name == '/';
 
     return MouseRegion(
       cursor: SystemMouseCursors.click,
       child: GestureDetector(
-        onTap: () => Navigator.of(context).pushNamed('/'),
+        onTap: () {
+          if (!isSelected) {
+            Navigator.of(context).pushReplacementNamed('/');
+          }
+        },
         child: Text(
           width > 700
               ? kAppTitle

@@ -39,6 +39,9 @@ const kWelcomeTitle = 'Software Engineer & Designer';
 
 const kWelcomeButtonText = 'See my projects';
 
+const readMeUrl =
+    'https://raw.githubusercontent.com/Feichtmeier/Feichtmeier/refs/heads/main/README.md';
+
 const kBaseColor = Colors.grey;
 const kHighlightColor = Colors.white;
 

@@ -25,6 +25,7 @@ class MessageFab extends StatelessWidget {
             padding: EdgeInsets.only(bottom: 3),
             child: Icon(
               TablerIcons.brand_github,
+              color: Colors.white,
             ),
           ),
         ),
@@ -32,14 +33,20 @@ class MessageFab extends StatelessWidget {
           onPressed: () => html.window.open(kMail, ''),
           icon: const Padding(
             padding: EdgeInsets.only(bottom: 3),
-            child: Icon(TablerIcons.mail),
+            child: Icon(
+              TablerIcons.mail,
+              color: Colors.white,
+            ),
           ),
         ),
         ActionButton(
           onPressed: () => html.window.open(kDiscordLink, ''),
           icon: const Padding(
             padding: EdgeInsets.only(bottom: 3),
-            child: Icon(TablerIcons.brand_discord),
+            child: Icon(
+              TablerIcons.brand_discord,
+              color: Colors.white,
+            ),
           ),
         ),
       ],

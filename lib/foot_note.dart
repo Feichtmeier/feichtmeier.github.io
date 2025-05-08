@@ -19,7 +19,7 @@ class FootNote extends StatelessWidget {
       children: [
         Flexible(
           child: Text(
-            '$kAppTitle · 2024 · ',
+            '$kAppTitle · 2025 · ',
             style: style,
             overflow: TextOverflow.fade,
           ),
@@ -28,8 +28,9 @@ class FootNote extends StatelessWidget {
           child: InkWell(
             borderRadius: BorderRadius.circular(2),
             onTap: () => html.window.open(
-                p.join(kGitHubPrefix, kFeichtmeier, 'feichtmeier.github.io'),
-                ''),
+              p.join(kGitHubPrefix, kFeichtmeier, 'feichtmeier.github.io'),
+              '',
+            ),
             child: Text(
               'Website Sourcecode',
               style: style,

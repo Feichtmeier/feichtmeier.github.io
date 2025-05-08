@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:github/github.dart';
-import 'package:ubuntu_service/ubuntu_service.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:watch_it/watch_it.dart';
 import 'constants.dart';
 import 'contributor_service.dart';
 import 'package:yaru/icons.dart';
@@ -20,7 +20,7 @@ class _ContributorGridState extends State<ContributorGrid> {
   @override
   void initState() {
     super.initState();
-    _contributors = getService<ContributorService>().contributors;
+    _contributors = di<ContributorService>().contributors;
   }
 
   @override

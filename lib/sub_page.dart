@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yaru/widgets.dart';
 
 import 'constants.dart';
 import 'foot_note.dart';
@@ -17,16 +18,14 @@ class SubPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: scaffoldGradient(context),
-      child: Scaffold(
+      child: YaruDetailPage(
         bottomNavigationBar: const FootNote(),
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           toolbarHeight: kToolBarHeight,
           leadingWidth: kLeadingWidth,
-          leading: const HeaderLead(
-            insertBackButton: true,
-          ),
+          leading: const HeaderLead(),
           title: const HeaderTitle(),
           actions: createTopMenu(context),
         ),

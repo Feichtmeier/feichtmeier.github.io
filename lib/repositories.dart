@@ -11,6 +11,18 @@ final repositories = <(String, String, String, IconData)>{
     YaruIcons.music_note,
   ),
   (
+    kUfcOrgaName,
+    'nebuchadnezzar',
+    'Matrix Chat App',
+    YaruIcons.chat_text_filled,
+  ),
+  (
+    kUfcOrgaName,
+    'pulse',
+    'Weather and News app for Ubuntu Desktop',
+    YaruIcons.weather,
+  ),
+  (
     kUbuntuOrganName,
     'yaru.dart',
     'The iconic Flutter widget and theme suite for Ubuntu Desktop applications',
@@ -57,11 +69,5 @@ final repositories = <(String, String, String, IconData)>{
     'apt.dart',
     'Dart library implementing the dbus interface org.debian.apt.',
     YaruIcons.debian,
-  ),
-  (
-    kUfcOrgaName,
-    'pulse',
-    'Weather and News app for Ubuntu Desktop',
-    YaruIcons.weather,
   ),
 };
